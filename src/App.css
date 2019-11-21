@@ -1,22 +1,41 @@
+*{
+  margin: 0;
+}
 .App {
   text-align: center;
+  font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
+  background: red;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.nav-btn{
+  border: none;
+  width: 100%;
+  background: none;
   color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.nav-btn:hover{
+  background: rgb(94, 2, 2);
+}
+.homeSlides img{
+  width: 80%;
+  height: 300px;
+  margin-bottom: 30px;
 }
 
-.App-link {
-  color: #09d3ac;
+.homeSlides button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.homeSlides p{
+  padding: 20px;
 }
